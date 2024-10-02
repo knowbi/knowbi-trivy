@@ -12,7 +12,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.20.0
         with:
-          image-ref: 'apahce/hop:Development'
+          image-ref: 'apache/hop:Development'
           format: 'sarif'
           output: 'trivy-results.sarif'
 
